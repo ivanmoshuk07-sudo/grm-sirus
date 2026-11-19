@@ -2,9 +2,10 @@
 
 Диагностический аддон для проверки состава гильдии на Sirus 3.3.5a+.
 
-1. Скачайте [ZIP с GitHub](https://github.com/ivanmoshuk07-sudo/grm-sirus/archive/refs/heads/main.zip).
-2. Из распакованного архива скопируйте папку `GRMSirusCheck` в `Interface/AddOns`. Файл аддона должен оказаться по пути `Interface/AddOns/GRMSirusCheck/GRMSirusCheck.toc`.
-3. Войдите в игру персонажем в гильдии и выполните `/grmsirus 5`.
+1. Закройте клиент Sirus и скачайте [GRMSirusCheck.zip](https://github.com/ivanmoshuk07-sudo/grm-sirus/raw/refs/heads/main/downloads/GRMSirusCheck.zip).
+2. Распакуйте ZIP прямо в `Interface/AddOns` того клиента Sirus, который запускаете. Проверьте путь к файлу `Interface/AddOns/GRMSirusCheck/GRMSirusCheck.toc`.
+3. Запустите игру. На экране выбора персонажа откройте «Модификации» и включите **GRM Sirus Check**.
+4. Войдите персонажем в гильдии и выполните `/grmsirus 5`. Результат появится в чате.
 
 Команда выводит имя, ранг, онлайн-статус и заметки первых пяти участников. Офицерские заметки видны при наличии права просмотра. Команда принимает число от 1 до 50. Если состав уже доступен в кэше клиента, аддон покажет его сразу.
 
