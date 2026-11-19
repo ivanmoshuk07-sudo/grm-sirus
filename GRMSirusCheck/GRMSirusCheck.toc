@@ -1,3 +1,4 @@
 ## Interface: 30300
 ## Title: GRM Sirus Check
+## Version: 0.1.0
 GRMSirusCheck.lua
